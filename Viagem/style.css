@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #1D0F6E;
+    justify-content: center;
+    height: 48px;
+}
+.email{
+    margin: 0px 10px 0px 1200px;
+}
+header p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+body{
+justify-content: center;
+text-align: center;
+}
+.inicio{
+    background-image: url(img/aviao.png);
+    padding: 70px 1px;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.inicio h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 96px;
+    width: 1236px;
+    margin: 10px 100px 788px 100px;
+}
+.titulo2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1D0F6E;
+    font-size: 80px;
+    margin: 150px 0px 50px ;
+}
+.viagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.viagem{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    Width: 342px; 
+    Height: 602px;
+}
+.viagem p{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+}
+span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.tx{
+    display: flex;
+    align-items: baseline;
+    height: 35px;
+}
+img{
+    Width: 342px; 
+    Height: 513px;
+    border-radius: 20px;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1D0F6E;
+    font-size: 96px;
+    margin: 250px 0px 250px ;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D0F6E;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    padding: 0px;
+}
